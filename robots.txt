@@ -1,1 +1,1 @@
-Sitemap: https://on-system.github.io/robots.txt
+Sitemap: https://on-system.github.io/sitemap.xml
