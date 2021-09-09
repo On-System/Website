@@ -1,421 +1,1506 @@
 <!DOCTYPE html>
 <html lang="fa">
-    
-<head>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="آن یک زیرساخت آموزش آنلاین متشکل از نرم افزار های مختلف است که زیرساخت کاملی را برای آموزش های اموزشگاه ها و دانشگاه ها فراهم می کند">
+      <meta name="samandehi" content="269745562"/>
+      <meta name="enamad" content="761955"/>
+      <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"> -->
+      <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.0.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+      <title>510708</title>
+      <!--     <title>آن سیستم - سیستم آموزش آنلاین برای رویداد، دانشگاه ها، مدارس و کنفرانس های علمی</title> -->
+      <!-- Additional CSS Files -->
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+      <link rel="stylesheet" href="assets/css/templatemo-lava.css">
+      <link rel="stylesheet" href="assets/css/owl-carousel.css">
+      <style type="text/css">
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #7ed957;
+        }
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        .tab button.active {
+            background-color: #70cc49;
+        }
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            /*border: 1px solid #ccc;*/
+            border-top: none;
+        }
+        .plan {
+            margin-bottom: 30px;
+            -webkit-box-shadow: 0 2px 10px #f2f2f2;
+            -moz-box-shadow: 0 2px 10px #f2f2f2;
+            box-shadow: 0 2px 10px #f2f2f2;
+        }
+        .plan h4 {
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 700;
+            margin: 0;
+            color: #fff;
+            background-color: #7ed957;
+            line-height: 50px;
+        }
+        .plan .plan-specs>div.price {
+            text-align: center;
+            color: #7ed957;
+            font-size: 1.3rem;
+            font-weight: 700;
+            padding: 10px 0 5px;
+            border-top: 1px solid #eee;
+        }
+        .plan .plan-specs>div.order-btn {
+            text-align: center;
+            padding-bottom: 10px;
+        }
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="آن یک زیرساخت آموزش آنلاین متشکل از نرم افزار های مختلف است که زیرساخت کاملی را برای آموزش های اموزشگاه ها و دانشگاه ها فراهم می کند">
-    <meta name="samandehi" content="269745562"/>
-    <meta name="enamad" content="761955"/>
-
-    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"> -->
-    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.0.0/dist/font-face.css" rel="stylesheet" type="text/css" />
-    
-    <title>510708</title>
-<!--     <title>آن سیستم - سیستم آموزش آنلاین برای رویداد، دانشگاه ها، مدارس و کنفرانس های علمی</title> -->
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
-    <link rel="stylesheet" href="assets/css/templatemo-lava.css">
-
-    <link rel="stylesheet" href="assets/css/owl-carousel.css">
-
-</head>
-
-<body>
-
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
+        .btn-primary {
+            color: #fff;
+            background-color: #7ed957;
+            border-color: #ddd;
+        }
+      </style>
+   </head>
+   <body>
+      <!-- ***** Preloader Start ***** -->
+      <div id="preloader">
+         <div class="jumper">
             <div></div>
             <div></div>
             <div></div>
-        </div>
-    </div>
-    <!-- ***** Preloader End ***** -->
-
-
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
+         </div>
+      </div>
+      <!-- ***** Preloader End ***** -->
+      <!-- ***** Header Area Start ***** -->
+      <header class="header-area header-sticky">
+         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#welcome" class="menu-item">خانه</a></li>
-                            <li class="scroll-to-section"><a href="#about" class="menu-item">ویژگی</a></li>
-                            <li class="scroll-to-section"><a href="#testimonials" class="menu-item">نظرات کاربران</a></li>
-                            <!--
-                            <li class="submenu">
-                                <a href="javascript:;">Drop Down</a>
-                                <ul>
-                                    <li><a href="" class="menu-item">About Us</a></li>
-                                    <li><a href="" class="menu-item">Features</a></li>
-                                    <li><a href="" class="menu-item">FAQ's</a></li>
-                                    <li><a href="" class="menu-item">Blog</a></li>
-                                </ul>
-                            </li>
-                            -->
-                            <li class="scroll-to-section"><a href="#contact-us" class="menu-item">تماس با ما</a></li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            <!-- One -->
-                            <img width="60px" src="assets/images/logo.png" alt="One system">
-                        </a>
-                        <!-- ***** Logo End ***** -->
-
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
-
-
-    <!-- ***** Welcome Area Start ***** -->
-    <div class="welcome-area" id="welcome">
-
-        <!-- ***** Header Text Start ***** -->
-        <div class="header-text">
-            <div class="container">
-                <div class="row">
-                    <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
-                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                        <h1><em>آن</em> سیستم</h1>
-                        <p><b>آن</b> یک زیرساخت آموزش آنلاین متشکل از نرم افزار های مختلف است که زیرساخت کاملی را برای آموزش های اموزشگاه ها و دانشگاه ها فراهم می کند
-                            <br>
-                        </p>
-                        <a href="#about" class="main-button-slider">اطلاعات بیشتر</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ***** Header Text End ***** -->
-    </div>
-    <!-- ***** Welcome Area End ***** -->
-
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <h2>۰۱</h2>
-                            <img src="assets/images/features-icon-1.png" alt="">
-                            <h4>بدون نیاز به نصب نرم افزار اضافی</h4>
-                            <p>برخلاف ابزار های دیگر نیاز به نصب هیچ ابزار اضافی مثل فلش یا اپلیکیشن و نرم افزاری نمی باشد و تنها نیاز است لینک اتاق را باز کنید.</p>
-                            <a href="#testimonials" class="main-button">
-                                مشاهده بیشتر
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <h2>۰۲</h2>
-                            <img src="assets/images/features-icon-2.png" alt="">
-                            <h4>پشتیبانی تمامی سیستم عامل ها</h4>
-                            <p>سیستم های ما در تمامی دستگاه ها به خوبی پشتیبانی می شوند بنابراین کاربران شما نیاز نیست نگران این باشند که آیا سیستم به خوبی در اندروید لینوکس ویندوز مک و ای او اس اجرا می شود.</p>
-                            <a href="#testimonials" class="main-button">
-                                مشاهده بیشتر
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <h2>۰۳</h2>
-                            <img src="assets/images/features-icon-3.png" alt="">
-                            <h4>امکان توسعه و سفارش سازی</h4>
-                            <p>با توجه به  معماری و زیرساخت نرم افزاری که فراهم شده امکان سفارش سازی و شخصی سازی هر بخش با توجه به نیاز کارفرما و سازمان ها وجود دارد.</p>
-                            <a href="#testimonials" class="main-button">
-                                مشاهده بیشتر
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <h2>۰۴</h2>
-                            <img src="assets/images/features-icon-3.png" alt="">
-                            <h4>گزارش گیری و وبسرویس</h4>
-                            <p>طبق استاندارد های بروز برای سیستم وبسرویس هایی طراحی شده است که سازمان ها بتوانند از آن سیستم در درون سیستم های خودشان استفاده کنند و در واقع به سادگی بشود آن سیستم را به پرتال های دانشگاهی متصل کرد تا کاربر یکپارچگی بیشتر احساس کند.</p>
-                            <a href="#testimonials" class="main-button">
-                                مشاهده بیشتر
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <h2>۰۵</h2>
-                            <img src="assets/images/features-icon-3.png" alt="">
-                            <h4>سیستم ضبط جلسه</h4>
-                            <p>
-                                صوت و تصویر افراد داخل جلسه بهمراه پیام ها در سیستم ضبط ذخیره می شوند و در نهایت خروجی قابل مشاهده و مناسبی را تولید می کند.
-                            </p>
-                            <a href="#testimonials" class="main-button">
-                                مشاهده بیشتر
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <h2>۰۶</h2>
-                            <img src="assets/images/features-icon-3.png" alt="">
-                            <h4>امکان دانلود ضبط جلسه ها</h4>
-                            <p>
-                                یکی از مشکلات دانشجویان این است که می خواهند فیلم جلسه ها را دانلود بکنند و در زمانی که به اینترنت دسترسی ندارند ان ها را بار ها و بارها ببینند و دیگر نیاز به اتصال اینترنت نباشد که این مورد در سیستم های قبلی موجود نبود.
-                            </p>
-                            <a href="#testimonials" class="main-button">
-                                مشاهده بیشتر
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Big Item End ***** -->
-
-    <div class="left-image-decor"></div>
-
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="promotion">
-        <div class="container">
-            <div class="row">
-                <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                </div>
-                <div class="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
-                    <ul>
-                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                            <img src="assets/images/about-icon-01.png" alt="">
-                            <div class="text">
-                                <h4>قابلیت توسعه</h4>
-                                <p>متن باز بودن و قابلیت توسعه یکی از مزایایی است که ان را حفظ کرده ایم.</p>
-                            </div>
-                        </li>
-                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
-                            <img src="assets/images/about-icon-02.png" alt="">
-                            <div class="text">
-                                <h4>مناسب برای کلاس درس، رویداد و کنفرانس های علمی</h4>
-                                <p>نیاز های اتاق درس با سخنرانی عمومی و کنفرانس علمی با یکدیگر متفاوت است. ما اینجا هستیم تا به شما کمک کنیم تا بر اساس نیاز خود زیرساخت مناسبی داشته باشید..</p>
-                            </div>
-                        </li>
-                        <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
-                            <img src="assets/images/about-icon-03.png" alt="">
-                            <div class="text">
-                                <h4>سامانه های جانبی متصل به سیستم</h4>
-                                <p>آموزشگاه و مدارس به سیستم های جانبی دیگری مثل LMS نیاز دارند که بتوانند به دانشویان دسترسی های متفاوتی بدهند که به کلاس های درس دسترسی داشته باشند همچنین سامانه دیگری برای امتحانات نیاز دارند.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Big Item End ***** -->
-
-    <div class="right-image-decor"></div>
-
-    <!-- ***** Testimonials Starts ***** -->
-    <section class="section" id="testimonials">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="center-heading">
-                        <h2>دیگران در مورد <em>آن</em> چه می گویند؟</h2>
-                        <p>
-                            تمام فعالیت های ما در این دو سال بنابر نظرات استادان و دانشجویان صورت
-                            گرفته است و به همین دلیل ارتباط نزدیکی با آنها حفظ کرده ایم.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Author One"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>حمید موسوی</h4>
-                                <p>من سیستم عامل لینوکس دارم و همیشه برای نصب نرم افزار ها مشکل داشتم چون فقط ویندوز رو پشتیبانی میکنند ولی الان دیگه راحت شدم”</p>
-                                <span>دانشجو رشته علوم کامپیوتر</span>
-                            </div>
-                        </div>
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Second Author"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>Martino Tino</h4>
-                                <p>“Morbi non mi luctus felis molestie scelerisque. In ac libero viverra, placerat est
-                                    interdum, rhoncus leo.”</p>
-                                <span>Web Analyst</span>
-                            </div>
-                        </div>
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Author Third"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>George Tasa</h4>
-                                <p>“Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
-                                    congue a fringilla sed, maximus et urna.”</p>
-                                <span>System Admin</span>
-                            </div>
-                        </div>
-                        <div class="item service-item">
-                            <div class="author">
-                                <i><img src="assets/images/testimonial-author-1.png" alt="Fourth Author"></i>
-                            </div>
-                            <div class="testimonial-content">
-                                <ul class="stars">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <h4>Sir James</h4>
-                                <p>"Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
-                                    congue a fringilla sed, maximus et urna."</p>
-                                <span>New Villager</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Testimonials Ends ***** -->
-
-
-    <!-- ***** Footer Start ***** -->
-    <footer id="contact-us">
-        <div class="container">
-            <div class="footer-content">
-                <div class="row">
-                    <!-- ***** Contact Form Start ***** -->
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="contact-form">
-                            <form id="contact" action="" method="post">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input name="name" type="text" id="name" placeholder="Full Name" required=""
-                                                style="background-color: rgba(250,250,250,0.3);">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input name="email" type="text" id="email" placeholder="E-Mail Address"
-                                                required="" style="background-color: rgba(250,250,250,0.3);">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <textarea name="message" rows="6" id="message" placeholder="Your Message"
-                                                required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <button type="submit" id="form-submit" class="main-button">ارسال پیام</button>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- ***** Contact Form End ***** -->
-                    <div class="right-content col-lg-6 col-md-12 col-sm-12">
-                        <h2>بیشتر درمورد <em>آن سیستم</em></h2>
-                        <p>
-                            
-                        </p>
-                        <ul class="social">
-                            <li><a href="https://t.me/on_system"><i class="fa fa-telegram"></i></a></li>
-                            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
-                            <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="sub-footer">
-                        <p>&copy; حقوق معنوی مربوط به شرکت اسرز می باشد
+               <div class="col-12">
+                  <nav class="main-nav">
+                     <!-- ***** Menu Start ***** -->
+                     <ul class="nav">
+                        <li class="scroll-to-section"><a href="#welcome" class="menu-item">خانه</a></li>
+                        <li class="scroll-to-section"><a href="#about" class="menu-item">ویژگی</a></li>
+                        <li class="scroll-to-section"><a href="#testimonials" class="menu-item">نظرات کاربران</a></li>
                         <!--
-                        | Designed by <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-                        -->
-                    </div>
-                </div>
+                           <li class="submenu">
+                               <a href="javascript:;">Drop Down</a>
+                               <ul>
+                                   <li><a href="" class="menu-item">About Us</a></li>
+                                   <li><a href="" class="menu-item">Features</a></li>
+                                   <li><a href="" class="menu-item">FAQ's</a></li>
+                                   <li><a href="" class="menu-item">Blog</a></li>
+                               </ul>
+                           </li>
+                           -->
+                        <li class="scroll-to-section"><a href="#contact-us" class="menu-item">تماس با ما</a></li>
+                     </ul>
+                     <a class='menu-trigger'>
+                     <span>Menu</span>
+                     </a>
+                     <!-- ***** Menu End ***** -->
+                     <!-- ***** Logo Start ***** -->
+                     <a href="index.html" class="logo">
+                        <!-- One -->
+                        <img width="60px" src="assets/images/logo.png" alt="One system">
+                     </a>
+                     <!-- ***** Logo End ***** -->
+                  </nav>
+               </div>
             </div>
-        </div>
-    </footer>
+         </div>
+      </header>
+      <!-- ***** Header Area End ***** -->
+      <!-- ***** Welcome Area Start ***** -->
+      <div class="welcome-area" id="welcome">
+         <!-- ***** Header Text Start ***** -->
+         <div class="header-text">
+            <div class="container">
+               <div class="row">
+                  <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
+                     data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                     <h1><em>آن</em> سیستم</h1>
+                     <p><b>آن</b> یک زیرساخت آموزش آنلاین متشکل از نرم افزار های مختلف است که زیرساخت کاملی را برای آموزش های اموزشگاه ها و دانشگاه ها فراهم می کند
+                        <br>
+                     </p>
+                     <a href="#about" class="main-button-slider">اطلاعات بیشتر</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- ***** Header Text End ***** -->
+      </div>
+      <!-- ***** Welcome Area End ***** -->
+      <!-- ***** Features Big Item Start ***** -->
+      <section class="section" id="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                  data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <h2>۰۱</h2>
+                        <img src="assets/images/features-icon-1.png" alt="">
+                        <h4>بدون نیاز به نصب نرم افزار اضافی</h4>
+                        <p>برخلاف ابزار های دیگر نیاز به نصب هیچ ابزار اضافی مثل فلش یا اپلیکیشن و نرم افزاری نمی باشد و تنها نیاز است لینک اتاق را باز کنید.</p>
+                        <a href="#testimonials" class="main-button">
+                        مشاهده بیشتر
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                  data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <h2>۰۲</h2>
+                        <img src="assets/images/features-icon-2.png" alt="">
+                        <h4>پشتیبانی تمامی سیستم عامل ها</h4>
+                        <p>سیستم های ما در تمامی دستگاه ها به خوبی پشتیبانی می شوند بنابراین کاربران شما نیاز نیست نگران این باشند که آیا سیستم به خوبی در اندروید لینوکس ویندوز مک و ای او اس اجرا می شود.</p>
+                        <a href="#testimonials" class="main-button">
+                        مشاهده بیشتر
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                  data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <h2>۰۳</h2>
+                        <img src="assets/images/features-icon-3.png" alt="">
+                        <h4>امکان توسعه و سفارش سازی</h4>
+                        <p>با توجه به  معماری و زیرساخت نرم افزاری که فراهم شده امکان سفارش سازی و شخصی سازی هر بخش با توجه به نیاز کارفرما و سازمان ها وجود دارد.</p>
+                        <a href="#testimonials" class="main-button">
+                        مشاهده بیشتر
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                  data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <h2>۰۴</h2>
+                        <img src="assets/images/features-icon-3.png" alt="">
+                        <h4>گزارش گیری و وبسرویس</h4>
+                        <p>طبق استاندارد های بروز برای سیستم وبسرویس هایی طراحی شده است که سازمان ها بتوانند از آن سیستم در درون سیستم های خودشان استفاده کنند و در واقع به سادگی بشود آن سیستم را به پرتال های دانشگاهی متصل کرد تا کاربر یکپارچگی بیشتر احساس کند.</p>
+                        <a href="#testimonials" class="main-button">
+                        مشاهده بیشتر
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                  data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <h2>۰۵</h2>
+                        <img src="assets/images/features-icon-3.png" alt="">
+                        <h4>سیستم ضبط جلسه</h4>
+                        <p>
+                           صوت و تصویر افراد داخل جلسه بهمراه پیام ها در سیستم ضبط ذخیره می شوند و در نهایت خروجی قابل مشاهده و مناسبی را تولید می کند.
+                        </p>
+                        <a href="#testimonials" class="main-button">
+                        مشاهده بیشتر
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                  data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <h2>۰۶</h2>
+                        <img src="assets/images/features-icon-3.png" alt="">
+                        <h4>امکان دانلود ضبط جلسه ها</h4>
+                        <p>
+                           یکی از مشکلات دانشجویان این است که می خواهند فیلم جلسه ها را دانلود بکنند و در زمانی که به اینترنت دسترسی ندارند ان ها را بار ها و بارها ببینند و دیگر نیاز به اتصال اینترنت نباشد که این مورد در سیستم های قبلی موجود نبود.
+                        </p>
+                        <a href="#testimonials" class="main-button">
+                        مشاهده بیشتر
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ***** Features Big Item End ***** -->
+      <div class="container plans-container" style="direction:rtl; text-align: right;">
+         <!-- <p class="alert alert-success"> -->
+            <!-- جهت آشنایی با مفاهیم پلن&zwnj;ها مانند نفرساعت، ظرفیت، دوره، اعتبار زمانی، کاربر همزمان و ضوابط فروش -->
+            <!-- مانند تمدید، ارتقا و انتقال شارژ لطفا به -->
+            <!-- <a href="/faq/category/pricing" target="_blank"><strong>بخش پرسش&zwnj;های متداول</strong></a> -->
+            <!-- مراجعه فرمایید. -->
+         <!-- </p> -->
+         <div class=" alert alert-info">
+            <h3>در کلیه سرویس&zwnj;ها می توانید</h3>
+            <ul>
+               <li>نامحدود کلاس ایجاد کنید (مثلا برای هر درس یا هر استاد یک کلاس)</li>
+               <li>نامحدود کاربر ایجاد کنید (برای هر دانش&zwnj;آموز / دانشجو یک کاربر)</li>
+               <li>تا سقف ظرفیت سرویس کلاس همزمان برگزار کنید (به عنوان مثال با سرویس ۶۰ کاربره  ۳ کلاس ۲۰ نفره)</li>
+               <li>ویدیو همزمان شامل تصویر وبکم و اشتراک دسکتاپ است (تصویر استاد و ۲ شاگرد)</li>
+               <li>در هر کلاس می توانید ۳ ویدیو همزمان فعال کنید (برای ۳ کلاس همزمان ۹ ویدیو مجاز است)</li>
+               <li>فایلهای شما تا 30 روز پس از پایان مدت اعتبار سرویس نگهداری می شود</li>
+            </ul>
+         </div>
+         <!----> <!----> <!----> 
+         <div class="categories">
+            <button onclick="openPlanTab(event, 'price-plan-1')" class="tab active btn btn-primary active category-10 tablinks">نامحدود</button>
+            <button onclick="openPlanTab(event, 'price-plan-2')" class="tab btn btn-primary category-4 tablinks">۵ تا ۴۰ کاربره</button>
+            <button onclick="openPlanTab(event, 'price-plan-3')" class="tab btn btn-primary category-5 tablinks">۵۰ تا ۸۰ کاربره</button>
+            <button onclick="openPlanTab(event, 'price-plan-4')" class="tab btn btn-primary category-6 tablinks">۱۰۰ تا ۱۷۰ کاربره</button>
+            <button onclick="openPlanTab(event, 'price-plan-5')" class="tab btn btn-primary category-7 tablinks">200 تا 3000 کاربره</button>
+            <button onclick="openPlanTab(event, 'price-plan-6')" class="tab btn btn-primary category-8 tablinks">وب&zwnj;کنفرانس</button>
+         </div>
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
+         <div class="plans row tabcontent" id="price-plan-1" style="display:flex;">
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۳۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 30 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           230,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۶۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 60 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           360,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۱۰۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 100 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           550,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۲۰۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 200 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           900,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۳۰۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 300 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           1,170,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۴۰۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 400 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           1,620,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۵۰۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 500 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           2,400,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۶۰۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 600 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           3,300,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۷۰۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 700 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           4,200,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۸۰۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 800 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           5,400,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۹۰۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 900 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           6,300,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس ۱۰۰۰ نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 1000 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           7,200,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس 1250 نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 1250 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           9,000,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس 1500 نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 1500 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           10,800,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس 1750 نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 1750 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           12,600,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس 2000 نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 2000 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           14,400,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس 2500 نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 2500 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           18,000,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+               <div class="plan">
+                  <h4>برگزاری نامحدود کلاس 3000 نفره</h4>
+                  <div class="plan-specs">
+                     <!----> 
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3000 کاربر همزمان
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        زمان برگزاری نامحدود
+                        </span>
+                     </div>
+                     <div class="plan-spec"><span><i class="fa fa-check"></i>
+                        تا 3 ویدئو همزمان
+                        </span>
+                     </div>
+                     <div class="price">
+                        <!----> 
+                        <div class="current-price">
+                           21,600,000 تومان
+                           <span class="monthly-notice">(ماهانه)</span>
+                        </div>
+                     </div>
+                     <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
 
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
 
-    <!-- Plugins -->
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script>
 
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
 
-</body>
+<div class="plans row tabcontent"  id="price-plan-2"><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۵ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 5 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            16,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 10 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            30,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 10 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            40,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۲۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 20 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            50,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۲۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 20 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            20 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            80,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۳۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 30 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            65,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۳۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 30 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            110,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۴۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 40 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            90,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۴۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 40 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            140,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="plans row tabcontent" id="price-plan-3"><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۵۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 50 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            110,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۵۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 50 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            175,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۸۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 80 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            170,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۸۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 80 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            260,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div></div>
+
+
+
+
+
+
+
+<div class="plans row tabcontent" id="price-plan-4"><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۰۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 100 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            210,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۰۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 100 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            310,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۲۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 120 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            250,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۲۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 120 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            360,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۵۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 150 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            300,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۵۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 150 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            360,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۷۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 170 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            330,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۷۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 170 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            390,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div></div>
+
+
+
+
+
+<div class="plans row tabcontent" id="price-plan-5"><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۲۰۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 200 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            380,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۲۰۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 200 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            520,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۲۵۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 250 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            460,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۲۵۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 250 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            600,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۳۰۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 300 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            2 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            530,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۳۰۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 300 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            700,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس 500 کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 500 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            1,190,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس 800 کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 800 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            2,500,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس ۱۰۰۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 1000 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            3,000,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس 1500 کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 1500 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            5,400,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس 2000 کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 2000 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            7,200,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس 2500 کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 2500 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            8,900,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس 3000 کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3000 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 3 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            10,700,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div></div>
+
+
+
+<div class="plans row tabcontent" id="price-plan-6"><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۵ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 5 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 5 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            40,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۱۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 10 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 5 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            90,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۱۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 10 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 10 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            170,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۲۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 20 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 5 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            170,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۲۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 20 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 10 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            310,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۲۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 20 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 15 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            360,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۳۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 30 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 5 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            230,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۳۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 30 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 10 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            360,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۳۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 30 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 15 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            590,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۵۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 50 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 5 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            360,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۵۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 50 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 10 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            620,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۷۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 70 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 5 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            390,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۱۰۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 100 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            5 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 5 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            620,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کنفرانس ۱۲۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 120 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 10 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            1,780,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div><div class="col-lg-3 col-sm-6 col-xs-12"><div class="plan"><h4>سرویس وب&zwnj;کفرانس ۳۰۰ کاربره</h4> <div class="plan-specs"><!----> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 300 کاربر همزمان
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            10 ساعت در ماه
+                        </span></div> <div class="plan-spec"><span><i class="fa fa-check"></i>
+                            تا 10 ویدئو همزمان
+                        </span></div> <div class="price"><!----> <div class="current-price">
+                            4,600,000 تومان
+                            <span class="monthly-notice">(ماهانه)</span></div></div> <div class="order-btn"><button name="plan" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> انتخاب پلن
+                        </button></div></div></div></div></div>
+
+
+      </div>
+      <div class="left-image-decor"></div>
+      <!-- ***** Features Big Item Start ***** -->
+      <section class="section" id="promotion">
+         <div class="container">
+            <div class="row">
+               <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
+                  data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                  <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+               </div>
+               <div class="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
+                  <ul>
+                     <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                        <img src="assets/images/about-icon-01.png" alt="">
+                        <div class="text">
+                           <h4>قابلیت توسعه</h4>
+                           <p>متن باز بودن و قابلیت توسعه یکی از مزایایی است که ان را حفظ کرده ایم.</p>
+                        </div>
+                     </li>
+                     <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
+                        <img src="assets/images/about-icon-02.png" alt="">
+                        <div class="text">
+                           <h4>مناسب برای کلاس درس، رویداد و کنفرانس های علمی</h4>
+                           <p>نیاز های اتاق درس با سخنرانی عمومی و کنفرانس علمی با یکدیگر متفاوت است. ما اینجا هستیم تا به شما کمک کنیم تا بر اساس نیاز خود زیرساخت مناسبی داشته باشید..</p>
+                        </div>
+                     </li>
+                     <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
+                        <img src="assets/images/about-icon-03.png" alt="">
+                        <div class="text">
+                           <h4>سامانه های جانبی متصل به سیستم</h4>
+                           <p>آموزشگاه و مدارس به سیستم های جانبی دیگری مثل LMS نیاز دارند که بتوانند به دانشویان دسترسی های متفاوتی بدهند که به کلاس های درس دسترسی داشته باشند همچنین سامانه دیگری برای امتحانات نیاز دارند.</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ***** Features Big Item End ***** -->
+      <div class="right-image-decor"></div>
+      <!-- ***** Testimonials Starts ***** -->
+      <section class="section" id="testimonials">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 offset-lg-2">
+                  <div class="center-heading">
+                     <h2>دیگران در مورد <em>آن</em> چه می گویند؟</h2>
+                     <p>
+                        تمام فعالیت های ما در این دو سال بنابر نظرات استادان و دانشجویان صورت
+                        گرفته است و به همین دلیل ارتباط نزدیکی با آنها حفظ کرده ایم.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
+                  data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                  <div class="owl-carousel owl-theme">
+                     <div class="item service-item">
+                        <div class="author">
+                           <i><img src="assets/images/testimonial-author-1.png" alt="Author One"></i>
+                        </div>
+                        <div class="testimonial-content">
+                           <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                           </ul>
+                           <h4>حمید موسوی</h4>
+                           <p>من سیستم عامل لینوکس دارم و همیشه برای نصب نرم افزار ها مشکل داشتم چون فقط ویندوز رو پشتیبانی میکنند ولی الان دیگه راحت شدم”</p>
+                           <span>دانشجو رشته علوم کامپیوتر</span>
+                        </div>
+                     </div>
+                     <div class="item service-item">
+                        <div class="author">
+                           <i><img src="assets/images/testimonial-author-1.png" alt="Second Author"></i>
+                        </div>
+                        <div class="testimonial-content">
+                           <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                           </ul>
+                           <h4>Martino Tino</h4>
+                           <p>“Morbi non mi luctus felis molestie scelerisque. In ac libero viverra, placerat est
+                              interdum, rhoncus leo.”
+                           </p>
+                           <span>Web Analyst</span>
+                        </div>
+                     </div>
+                     <div class="item service-item">
+                        <div class="author">
+                           <i><img src="assets/images/testimonial-author-1.png" alt="Author Third"></i>
+                        </div>
+                        <div class="testimonial-content">
+                           <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                           </ul>
+                           <h4>George Tasa</h4>
+                           <p>“Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
+                              congue a fringilla sed, maximus et urna.”
+                           </p>
+                           <span>System Admin</span>
+                        </div>
+                     </div>
+                     <div class="item service-item">
+                        <div class="author">
+                           <i><img src="assets/images/testimonial-author-1.png" alt="Fourth Author"></i>
+                        </div>
+                        <div class="testimonial-content">
+                           <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                           </ul>
+                           <h4>Sir James</h4>
+                           <p>"Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,
+                              congue a fringilla sed, maximus et urna."
+                           </p>
+                           <span>New Villager</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ***** Testimonials Ends ***** -->
+      <!-- ***** Footer Start ***** -->
+      <footer id="contact-us">
+         <div class="container">
+            <div class="footer-content">
+               <div class="row">
+                  <!-- ***** Contact Form Start ***** -->
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                     <div class="contact-form">
+                        <form id="contact" action="" method="post">
+                           <div class="row">
+                              <div class="col-md-6 col-sm-12">
+                                 <fieldset>
+                                    <input name="name" type="text" id="name" placeholder="Full Name" required=""
+                                       style="background-color: rgba(250,250,250,0.3);">
+                                 </fieldset>
+                              </div>
+                              <div class="col-md-6 col-sm-12">
+                                 <fieldset>
+                                    <input name="email" type="text" id="email" placeholder="E-Mail Address"
+                                       required="" style="background-color: rgba(250,250,250,0.3);">
+                                 </fieldset>
+                              </div>
+                              <div class="col-lg-12">
+                                 <fieldset>
+                                    <textarea name="message" rows="6" id="message" placeholder="Your Message"
+                                       required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
+                                 </fieldset>
+                              </div>
+                              <div class="col-lg-12">
+                                 <fieldset>
+                                    <button type="submit" id="form-submit" class="main-button">ارسال پیام</button>
+                                 </fieldset>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <!-- ***** Contact Form End ***** -->
+                  <div class="right-content col-lg-6 col-md-12 col-sm-12">
+                     <h2>بیشتر درمورد <em>آن سیستم</em></h2>
+                     <p>
+                     </p>
+                     <ul class="social">
+                        <li><a href="https://t.me/on_system"><i class="fa fa-telegram"></i></a></li>
+                        <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                        <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="sub-footer">
+                     <p>
+                        &copy; حقوق معنوی مربوط به شرکت اسرز می باشد
+                        <!--
+                           | Designed by <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+                           -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- jQuery -->
+      <script src="assets/js/jquery-2.1.0.min.js"></script>
+      <!-- Bootstrap -->
+      <script src="assets/js/popper.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <!-- Plugins -->
+      <script src="assets/js/owl-carousel.js"></script>
+      <script src="assets/js/scrollreveal.min.js"></script>
+      <script src="assets/js/waypoints.min.js"></script>
+      <script src="assets/js/jquery.counterup.min.js"></script>
+      <script src="assets/js/imgfix.min.js"></script>
+      <!-- Global Init -->
+      <script src="assets/js/custom.js"></script>
+   </body>
 </html>
